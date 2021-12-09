@@ -1,0 +1,54 @@
+#userBlock {
+  background-color: #121212;
+  height: 100vh;
+}
+#userBlock article {
+  display: flex;
+  height: 100vh;
+}
+.UserleftBlock {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 20%;
+  background-color: #111;
+  color: aliceblue;
+}
+.UserrightBlock {
+  display: flex;
+  flex-basis: 80%;
+  position: relative;
+}
+.UserleftBlock svg {
+  fill: #fff;
+  width: 131px;
+  height: 40px;
+  margin: 20px 20px;
+}
+.UserrightBlock div:nth-child(1) {
+  justify-content: flex-start;
+}
+.UserrightBlock div:nth-child(2) {
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: absolute;
+  left: 800px;
+  padding: 10px 10px;
+}
+.UserrightBlock div:nth-child(2) span {
+  padding: 10px 10px;
+}
+.UserrightBlock div:nth-child(2) span button {
+  padding: 10px 15px 10px 15px;
+  border-radius: 500px;
+  border: 1px solid #fff;
+  background-color: #121212;
+  color: #fff;
+  font-weight: bold;
+}
+.UserrightBlock div:nth-child(2) span:nth-child(1) :hover {
+  padding: 10px 20px 10px 20px;
+}
+.UserrightBlock div:nth-child(1) span i {
+  color: #fff;
+  padding: 10px 10px;
+}

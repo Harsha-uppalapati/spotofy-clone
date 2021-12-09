@@ -1,0 +1,32 @@
+.footer {
+  height: 80vh;
+  background: #111;
+  display: flex;
+}
+.footer div:nth-child(1) svg {
+  fill: #fff;
+  width: 131px;
+  height: 63px;
+}
+.container {
+  width: 80%;
+  margin: 70px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.container ul {
+  list-style: none;
+}
+.container ul li {
+  color: #fff;
+  line-height: 50px;
+}
+.container div span i {
+  color: #fff;
+}
+.container ul li:nth-child(1) {
+  color: rgb(77, 73, 73);
+  font-weight: bold;
+}
+.container ul li:hover {
+}
